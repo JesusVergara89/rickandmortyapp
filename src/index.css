@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    margin: 0;
+}
+
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    padding-bottom: 2px;
+}
+
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    background-image: url(/src/components/universe.jpg);
+    background-repeat: repeat-y;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12%;
+    gap: 1vw;
+    width: 100%;
+    height: 20vw;
+    background-image: url(/src/components/header1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+form h1{
+    color: rgb(132, 255, 0);
+    text-decoration: underline;
+    background-color: rgb(255, 4, 163);
+    border-radius: 15px;
+    padding: 10px 20px 15px 20px;
+    border: 3px solid greenyellow;  
+    text-align: center;
+}
+
+form input {
+    width: min(250px, 80%);
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(255, 4, 163);
+    border: 3px solid greenyellow;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+form button {
+    width: min(100px, 80%);
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(255, 4, 163);
+    border: 3px solid greenyellow;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.location-card {
+    box-sizing: border-box;
+    width: min(650px, 80%);
+    min-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 4, 163);
+    border-radius: 30px;
+    border: 3px solid greenyellow;
+    padding: 10px;
+}
+
+span {
+    font-weight: bold;
+    color: black;
+}
+
+.Cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+
+.character-card {
+    width: min(350px, 80%);
+    min-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 4, 163);
+    border-radius: 30px;
+    border: 3px solid greenyellow;
+    padding: 20px;
+    gap: 10px;
+}
+
+.character-card h2{
+    font-size: 16px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    background-color: greenyellow;
+    border-radius: 18px;
+    padding: 15px;
+}
+
+.character-card img{
+    border-radius: 20px;
+}
+
